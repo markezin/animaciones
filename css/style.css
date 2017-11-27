@@ -1,0 +1,35 @@
+#db-bg {
+    background-image: url(../img/tatamiDG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background: url(../img/tatamiDG.png) no-repeat cover;
+    
+}
+
+.saiyan {
+   width:10%;
+}
+
+#goku {
+    position:fixed;
+    top: 150px;
+    left: 10%;
+}
+
+#vegeta {
+    position:fixed;
+    top: 150px;
+    right: 10%;
+}
+
+#bolazo {
+    position:absolute;
+    top: 900px;
+    right: 42%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(yellow,orange,red)
+}
