@@ -1,0 +1,85 @@
+/*
+@keyframes Tierra {
+    0% {
+        position: absolute;
+        right: 25%;
+    }
+    35% {
+         position: absolute;
+         right: 25%;
+    }
+    
+    70% {
+         position: absolute;
+         right: 25%;
+    }
+    
+    85% {
+         position: absolute;
+         right: 25%;
+    }
+    
+    100% {
+         position: absolute;
+         right: 25%;
+    }
+}
+*/
+
+@keyframes Luna {
+    0% {
+       position: absolute;
+        z-index: 0;
+    top: 1037px;
+    right: 5%; 
+    }
+    
+    30% {
+        position: absolute;
+        z-index: -1;
+    top: 1037px;
+    right: 45%;
+    }
+    
+    60% {
+       position: absolute;
+        z-index: 0;
+    top: 1037px;
+    right: 85%; 
+    }
+    
+    80% {
+      position: absolute;
+        z-index: 1
+    top: 1037px;
+    right: 45%;  
+    }
+    
+    100% {
+        position: absolute;
+        z-index:0;
+    top: 1037px;
+    right: 5%;
+    }
+}
+
+.body {
+    background-color: black;
+}
+
+.Astros {
+    width: 100%;
+}
+    
+#Tierra {  
+    position: absolute;
+    right: 25%;
+}
+
+#Luna {
+    position: absolute;
+    top: 1037px;
+    right: 5%;
+    transform: rotate(45deg);
+    animation: Luna 5s;
+    }

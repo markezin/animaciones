@@ -1,5 +1,16 @@
 /*-----Animation Styles-----*/
 
+@keyframes Vegeta {
+    
+    0% {
+        visibility: visible;
+    }
+    
+    100% {
+        visibility: hidden;
+    }
+}
+    
 @keyframes lanzarbolazo {
     
     0% {
@@ -60,6 +71,8 @@
     position:fixed;
     top: 150px;
     right: 10%;
+    visibility: hidden;
+    animation: Vegeta 8s;
 }
 
 #bolazo {
