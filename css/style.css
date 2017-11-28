@@ -1,3 +1,41 @@
+/*-----Animation Styles-----*/
+
+@keyframes lanzarbolazo {
+    
+    0% {
+        width: 0;
+        height: 0;
+        right: 38%;
+    }
+    
+    25% {
+        width: 0;
+        height: 0;
+    }
+    
+    60% {
+        width: 500px;
+        height: 500px;
+        right: 38%;
+    }
+    
+    75% {
+        width: 500px;
+        height: 500px;
+        right: 38%;
+    }
+    
+    100% {
+        width: 500px;
+        height: 500px;
+        right: 120%;
+    }
+}
+
+
+
+
+
 #db-bg {
     background-image: url(../img/tatamiDG.png);
     background-repeat: no-repeat;
@@ -26,10 +64,11 @@
 
 #bolazo {
     position:absolute;
-    top: 900px;
-    right: 42%;
-    width: 250px;
-    height: 250px;
+    top: 700px;
+    right: 38%;
+    width: 0;
+    height: 0;
     border-radius: 50%;
-    background: radial-gradient(yellow,orange,red)
+    background: radial-gradient(yellow,orange,red);
+    animation: lanzarbolazo 8s;
 }
